@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem 4rem;
+
+
+}
+
+/* try it button */
+header button {
+    background-color: transparent;
+    border: 2px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    border-radius: 0.9rem;
+    padding: 0.3rem 1rem;
+    font-family: Poppins;
+
+}
+
+/* on hover  */
+header button:hover {
+    color: whitesmoke;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+
+
+/* main section */
+main .build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* paragraph in  div with a class of div */
+main .build-para {
+    margin: 1rem auto;
+    width: 35%;
+}
+
+/* get started button */
+.get-started {
+    color: whitesmoke;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 0.9rem;
+    padding: 0.8rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* on hover */
+.get-started:hover {
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+/* images hieght-- for all iamges */
+.same-img-size {
+    width: 50%;
+}
+
+/* h3 ---heading text for each section */
+h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+/* the div containing sreen-mockup image */
+.mockup-div {
+    display: flex;
+
+}
+
+/* screen-mockup image class */
+.screen-mockup {
+    margin: 2rem auto;
+
+}
+
+/* container of the big two numerals with image at thier top */
+.testimony {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 2rem; */
+}
+
+
+/* class containning the curve images */
+.section-top {
+    width: 100%;
+}
+
+
+/* div style for all section */
+.common-div-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 3rem 2rem;
+}
+/* text style class for each text container */
+.style-texts {
+    width: 50%;
+    padding: 1rem 6rem 1rem  1rem;
+}
+
+/* grow together section contanier class  */
+.grow-together {
+    flex-direction: row-reverse;
+    background-color: hsl(207, 100%, 98%);
+    margin: -1rem 0rem 0 0;
+}
+
+/* flowing section container class */
+.flowing p,
+.flowing h3 {
+    margin-left: 3rem;
+    margin-right: 0rem;
+}
+
+/* user section container class  */
+.users {
+    flex-direction: row-reverse;
+    background-color: hsl(207, 100%, 98%);
+    margin: -1rem 0rem 0 0;
+}
+
+/*footer top image class  */
+.footer-top {
+    width: 100%;
+}
+
+/* Ready section container class */
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ready h3 {
+    margin: 1rem auto;
+}
+
+/* footer section */
+footer {
+    margin-top: 4rem;
+}
+
+
+/* div containing footer contents */
+.footer-div {
+    background-color: hsl(192, 100%, 9%);
+    color: whitesmoke;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 3rem 0.8rem;
+    margin: -1rem auto 0rem;
+
+
+}
+
+
+/* Huddle footer logo */
+.footer-logo {
+    width: 20%;
+}
+
+/* social media icons class */
+.fa-brands{
+padding: 0.3rem;
+}
+
+.fa-brands:hover {
+color: hsl(210, 81%, 58%);
+cursor: pointer;
+}
+
+/* container of the list items */
+.footer-div ul {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.footer-div ul .lorem {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.footer-div ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-div span {
+    margin-left: 0.5rem;
+}
+
+/* Newsletter section container */
+
+.footer-div .newsletter {
+
+
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.footer-div .newsletter h3 {
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+
+.footer-div .newsletter p {
+    width: 55%;
+    margin: auto;
+
+}
+
+/* form container */
+form {
+    margin-top: 1rem;
+}
+
+.footer-div .newsletter input {
+    background-color: whitesmoke;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    outline: none;
+    text-transform: lowercase;
+    color: hsl(192, 100%, 9%);
+
+}
+
+.footer-div .newsletter button {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.3rem 0.5rem;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+
+/*conatiner of the frontendmentor description  */
+.down {
+    background-color: hsl(192, 100%, 9%);
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+
+.attribution {
+    text-align: center;
+    color: hsl(228, 20%, 90%);
+}
+
+.attribution a {
+    color: hsl(321, 100%, 78%);
+
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width:480px) {
+
+
+    body {
+        font-size: 12px;
+        box-sizing: border-box;
+        width: fit-content;
+    }
+
+/* header logo class  */
+    .logo {
+        width: 30%;
+    }
+
+/* try it button */
+    header button {
+        padding: 0.2rem 0.5rem;
+    }
+
+    /* paragraph in  div with a class of div */
+   main .build h3 {
+        width: 50%;
+        margin: auto;
+    }
+
+/* h3 ---heading text for each section */
+    h3 {
+        font-size: 1.2rem;
+        line-height: normal;
+    }
+
+
+    main .build-para {
+        width: 65%;
+    }
+
+/* get started button */
+    .get-started {
+        padding: 0.4rem 1.5rem;
+    }
+/* container of the big two numerals with image at thier top */
+    .testimony {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+/* message container */
+    .message-sent {
+        margin-left: -2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+/* message container */
+    .common-div-style {
+        flex-direction: column;
+    }
+/* text container class */
+    .style-texts {
+        text-align: center;
+        margin-top: 2rem;
+        width: 80%;
+        margin: 2rem auto 0rem;
+    }
+
+    .style-texts p {
+        margin-top: 1rem;
+    }
+
+    /* images hieght-- for all iamges */
+    .same-img-size {
+        width: 70%;
+    }
+
+    /* div containing footer contents */
+    .footer-div {
+        flex-direction: column-reverse;
+    }
+
+    .footer-div .newsletter {
+        text-align: justify;
+    }
+
+    .footer-div .newsletter p {
+        width: 80%;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+
+/* form container */
+    form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form button {
+        width: 30%;
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+
+
+/* Huddle footer logo */
+    .footer-logo {
+        width: 30%;
+        margin-top: 1rem;
+    }
+/* container of the list items */
+    .footer-div ul .come {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
