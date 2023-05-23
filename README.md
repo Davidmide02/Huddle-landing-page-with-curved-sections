@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ Solution URL here]([https://your-solution-url.com](https://github.com/Davidmide02/Huddle-landing-page-with-curved-sections.git)
-- Live Site URL: [ Live site URL here]([https://your-live-site-url.com](https://davidmide02.github.io/Huddle-landing-page-with-curved-sections/))
+- Solution URL: [ Solution URL here](https://github.com/Davidmide02/Huddle-landing-page-with-curved-sections.git)
+- Live Site URL: [ Live site URL here](https://davidmide02.github.io/Huddle-landing-page-with-curved-sections/))
 
 ## My proces
 - Analysis the layout
